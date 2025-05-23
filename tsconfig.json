@@ -1,0 +1,88 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "@enums/*": [
+        "../shared/enums/*",
+        "./src/app/enums/*",
+        "./src/core/enums/*"
+      ],
+      "@interfaces/*": [
+        "../shared/interfaces/*",
+        "./src/app/interfaces/*",
+        "./src/core/interfaces/*"
+      ],
+      "@helpers/*": [
+        "../shared/helpers/*",
+        "./src/app/helpers/*",
+        "./src/core/helpers/*"
+      ],
+      "@models/*": [
+        "../shared/models/*",
+        "./src/app/models/*",
+        "./src/core/models/*"
+      ],
+      "@components/*": [
+        "./src/app/components/*",
+        "./src/core/components/*"
+      ],
+      "@constants/*": [
+        "./src/app/constants/*",
+        "./src/core/constants/*"
+      ],
+      "@directives/*": [
+        "./src/app/directives/*",
+        "./src/core/directives/*"
+      ],
+      "@guards/*": [
+        "./src/app/guards/*",
+        "./src/core/guards/*"
+      ],
+      "@interceptors/*": [
+        "./src/app/interceptors/*",
+        "./src/core/interceptors/*"
+      ],
+      "@layouts/*": [
+        "./src/app/layouts/*",
+        "./src/core/layouts/*"
+      ],
+      "@modules/*": [
+        "./src/app/modules/*",
+        "./src/core/modules/*"
+      ],
+      "@pipes/*": [
+        "./src/app/pipes/*",
+        "./src/core/pipes/*"
+      ],
+      "@resolvers/*": [
+        "./src/app/resolvers/*",
+        "./src/core/resolvers/*"
+      ],
+      "@services/*": [
+        "./src/app/services/*",
+        "./src/core/services/*"
+      ],
+      "@app/*": [
+        "./src/app/*"
+      ],
+      "@pages/*": [
+        "./src/app/pages/*"
+      ],
+      "@core/*": [
+        "./src/core/*"
+      ],
+      "@shared/*": [
+        "../shared/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@environment/*": [
+        "./src/environments/*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "clickteam-gaming-services",
+  "version": "1.0.0",
+  "description": "An all-in-one platform for game development, distribution, and monetization. Offers advanced tools, integrated publishing, backend services, a content marketplace, community support, and analytics for developers, creators, and gamers.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gui8515/clickteam-gaming-services.git"
+  },
+  "keywords": [
+    "gaming",
+    "development",
+    "platform",
+    "community",
+    "distribution",
+    "monetization",
+    "marketplace"
+  ],
+  "author": "Guilherme Gois Pereira",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gui8515/clickteam-gaming-services/issues"
+  },
+  "homepage": "https://github.com/gui8515/clickteam-gaming-services#readme",
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared"
+  ]
+}
